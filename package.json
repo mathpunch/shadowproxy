@@ -1,0 +1,27 @@
+{
+  "name": "shadowproxy",
+  "version": "1.0.0",
+  "description": "A Lightweight Proxy To Unblock Websites At School Using Ultraviolet Static.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iceycolduser/shadowproxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "ultraviolet",
+    "web-unblock",
+    "school",
+    "static"
+  ],
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/iceycolduser/shadowproxy/issues"
+  },
+  "homepage": "https://github.com/iceycolduser/shadowproxy"
+}
