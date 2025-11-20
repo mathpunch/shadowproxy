@@ -234,8 +234,12 @@
                 count = 100;
                 clearInterval(interval);
                 setTimeout(() => {
-                    // You can redirect or hide loading screen here
-                    // window.location.href = 'main.html';
+                    // Fade out and redirect
+                    document.body.style.transition = 'opacity 0.5s';
+                    document.body.style.opacity = '0';
+                    setTimeout(() => {
+                        window.location.href = 'main.html'; // Change this to your main page
+                    }, 500);
                 }, 500);
             }
             percentageEl.textContent = count + '%';
